@@ -1082,7 +1082,6 @@
 
 .u-section-6 .u-layout-wrap-1 {
   width: 1041px;
-  min-height: 473px;
   margin: 60px auto 50px;
 }
 
@@ -1142,7 +1141,6 @@
 
   .u-section-6 .u-layout-wrap-1 {
     width: 940px;
-    min-height: 365px;
   }
 
   .u-section-6 .u-layout-cell-1 {
@@ -1181,7 +1179,6 @@
 
   .u-section-6 .u-layout-wrap-1 {
     width: 720px;
-    min-height: 509px;
   }
 
   .u-section-6 .u-layout-cell-1 {
@@ -1204,7 +1201,6 @@
 
   .u-section-6 .u-layout-wrap-1 {
     width: 540px;
-    min-height: 247px;
     margin-top: 50px;
     margin-bottom: 0;
   }
@@ -1410,7 +1406,6 @@
 
 .u-section-8 .u-repeater-1 {
   grid-gap: 10px 10px;
-  grid-auto-columns: calc(25% - 7.5px);
   grid-template-columns: calc(25% - 7.5px) calc(25% - 7.5px) calc(25% - 7.5px) calc(25% - 7.5px);
   min-height: 496px;
 }
@@ -1510,7 +1505,6 @@
   }
 
   .u-section-8 .u-repeater-1 {
-    grid-template-columns: repeat(4, calc(25% - 7.5px));
     min-height: 409px;
   }
 }
@@ -1526,12 +1520,10 @@
 
   .u-section-8 .u-list-1 {
     margin-bottom: 0;
-    height: auto;
-    min-height: auto;
+    min-height: 1330px;
   }
 
   .u-section-8 .u-repeater-1 {
-    grid-auto-columns: calc(50% - 5px);
     grid-template-columns: calc(50% - 5px) calc(50% - 5px);
     min-height: 1004px;
   }
@@ -1983,7 +1975,6 @@
 
 .u-section-10 .u-repeater-1 {
   grid-gap: 10px 10px;
-  grid-auto-columns: calc(50% - 5px);
   grid-template-columns: calc(50% - 5px) calc(50% - 5px);
   min-height: 375px;
 }
@@ -1994,6 +1985,7 @@
 
 .u-section-10 .u-text-2 {
   font-size: 2.25rem;
+  font-style: normal;
   margin: 0 10px;
 }
 
@@ -2003,6 +1995,7 @@
 
 .u-section-10 .u-text-3 {
   font-size: 2.25rem;
+  font-style: normal;
   margin: 0 10px;
 }
 
@@ -2023,7 +2016,6 @@
   }
 
   .u-section-10 .u-repeater-1 {
-    grid-template-columns: repeat(2, calc(50% - 5px));
     min-height: 309px;
   }
 
@@ -2053,7 +2045,6 @@
   }
 
   .u-section-10 .u-repeater-1 {
-    grid-auto-columns: calc(100% - 0px);
     grid-template-columns: 100%;
   }
 }
@@ -2070,10 +2061,6 @@
   .u-section-10 .u-list-1 {
     width: 540px;
     margin-bottom: 39px;
-  }
-
-  .u-section-10 .u-repeater-1 {
-    grid-auto-columns: 100%;
   }
 }
 
@@ -2118,7 +2105,6 @@
 
 .u-section-11 .u-repeater-1 {
   grid-gap: 10px 10px;
-  grid-auto-columns: calc(25% - 7.5px);
   grid-template-columns: calc(25% - 7.5px) calc(25% - 7.5px) calc(25% - 7.5px) calc(25% - 7.5px);
   min-height: 640px;
 }
@@ -2130,7 +2116,6 @@
 .u-section-11 .u-image-1 {
   width: 258px;
   min-height: 214px;
-  height: auto;
   background-image: url("images/download1.jpg");
   margin: 6px auto 0;
 }
@@ -2152,7 +2137,6 @@
 .u-section-11 .u-image-2 {
   width: 258px;
   min-height: 214px;
-  height: auto;
   background-image: url("images/download.jpg");
   margin: 6px auto 0;
 }
@@ -2174,7 +2158,6 @@
 .u-section-11 .u-image-3 {
   width: 258px;
   min-height: 214px;
-  height: auto;
   background-image: url("images/how-to-perform-laptop-battery-replacement-hero11560894203174310.jpg");
   margin: 6px auto 0;
 }
@@ -2196,7 +2179,6 @@
 .u-section-11 .u-image-4 {
   width: 258px;
   min-height: 214px;
-  height: auto;
   background-image: url("images/download2.jpg");
   margin: 6px auto 0;
 }
@@ -2218,7 +2200,6 @@
 .u-section-11 .u-image-5 {
   width: 258px;
   min-height: 214px;
-  height: auto;
   background-image: url("images/SSD_vs_HDD-which_should_you_buy-Hero.webp");
   margin: 6px auto 0;
 }
@@ -2240,7 +2221,6 @@
 .u-section-11 .u-image-6 {
   width: 258px;
   min-height: 214px;
-  height: auto;
   background-image: url("images/What_is_RAM-Thumb.webp");
   margin: 6px auto 0;
 }
@@ -2262,7 +2242,6 @@
 .u-section-11 .u-image-7 {
   width: 258px;
   min-height: 214px;
-  height: auto;
   background-image: url("images/1_b40f0f09-3cf9-42eb-af0d-51e41cc16dba.webp");
   background-position: 50% 82.18%;
   margin: 6px auto 0;
@@ -2285,7 +2264,6 @@
 .u-section-11 .u-image-8 {
   width: 258px;
   min-height: 214px;
-  height: auto;
   background-image: url("images/laptop-motherboard-1000x1000.webp");
   margin: 6px auto 0;
 }
@@ -2324,7 +2302,6 @@
     min-height: 196px;
     margin-right: 7px;
     margin-left: 0;
-    height: auto;
   }
 
   .u-section-11 .u-text-2 {
@@ -2336,7 +2313,6 @@
     min-height: 196px;
     margin-right: 7px;
     margin-left: 0;
-    height: auto;
   }
 
   .u-section-11 .u-text-3 {
@@ -2348,7 +2324,6 @@
     min-height: 196px;
     margin-right: 7px;
     margin-left: 0;
-    height: auto;
   }
 
   .u-section-11 .u-text-4 {
@@ -2360,7 +2335,6 @@
     min-height: 196px;
     margin-right: 7px;
     margin-left: 0;
-    height: auto;
   }
 
   .u-section-11 .u-text-5 {
@@ -2372,7 +2346,6 @@
     min-height: 196px;
     margin-right: 7px;
     margin-left: 0;
-    height: auto;
   }
 
   .u-section-11 .u-text-6 {
@@ -2384,7 +2357,6 @@
     min-height: 196px;
     margin-right: 7px;
     margin-left: 0;
-    height: auto;
   }
 
   .u-section-11 .u-text-7 {
@@ -2396,7 +2368,6 @@
     min-height: 196px;
     margin-right: 7px;
     margin-left: 0;
-    height: auto;
   }
 
   .u-section-11 .u-text-8 {
@@ -2408,7 +2379,6 @@
     min-height: 196px;
     margin-right: 7px;
     margin-left: 0;
-    height: auto;
   }
 
   .u-section-11 .u-text-9 {
@@ -2427,8 +2397,7 @@
   }
 
   .u-section-11 .u-repeater-1 {
-    grid-auto-columns: calc(50% - 5px);
-    grid-template-columns: repeat(2, calc(50% - 5px));
+    grid-template-columns: calc(50% - 5px) calc(50% - 5px);
     min-height: 1441px;
   }
 
@@ -2559,7 +2528,6 @@
   }
 
   .u-section-11 .u-repeater-1 {
-    grid-template-columns: calc(50% - 5px) calc(50% - 5px);
     min-height: 1208px;
   }
 
